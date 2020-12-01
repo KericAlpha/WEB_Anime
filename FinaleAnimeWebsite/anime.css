@@ -1,0 +1,88 @@
+h1
+{
+    font-size: 2cm;
+    text-align: left;
+}
+
+h1 a 
+{
+    font-size: 1cm;
+    text-decoration: none;
+    color: #ababab;
+}
+
+img
+{
+    position: relative;
+}
+
+body
+{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body section
+{
+    font-size: 0.5cm;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #ababab;
+}
+
+body section a 
+{
+    font-size: 0.5cm;
+    color: #ababab;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.linkh1 {color: #ababab; font-size: 2cm;}
+.linkh1:hover{color:white;}
+
+.linkbig {color: #ababab; font-size: 1cm;}
+.linkbig:hover { color:white; }
+
+.link{color: #ababab;}
+.link:hover{color:white;}
+
+.column{float: left; padding-left: 50px; text-align: center; font-size: 0.8cm;}
+.columnafter{float: left; padding-left: 50px; padding-top: 30px; text-align: center; font-size: 0.8cm;}
+.row::after{content: ""; clear: none; display: table;}
+.center{text-align: center;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 400px 400px 400px;
+    grid-gap: 50px;
+    padding: 30px;
+  }
+
+.grid-container > div{
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid-container-header{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.grid-container-header > div{
+    text-align: center;
+    font-size: 1cm;
+}
+
+body section div a{
+    font-size: 1cm;
+}
+
+body section div a:hover{
+    color: white;
+}
